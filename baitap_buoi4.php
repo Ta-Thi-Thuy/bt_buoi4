@@ -33,6 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $login = false;
         foreach ($arr as $value) {
             if ($email == $value[0] && $pass == $value[1]) {
+                header("location: danhsach-git.php");
                 $login = true;
                 break;
             }
