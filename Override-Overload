@@ -1,0 +1,14 @@
+Tóm tắt hiểu biết về Override và Overload:
+
+                               Override                                           Overload
+Hành vi      - Thay đổi hành vi hiện tại của phương thức           - Thêm hoặc mở rộng cho hành vi của thương thức
+D/s          - Là giống nhau                                       - Có thể khác nhau
+tham số
+
+Quyền        - Ghi đè                                              - Nạp chồng
+truy cập
+
+G/trị        - Giống nhau                                          - Có thể khác nhau
+trả về
+
+Phạm vi      - Giữa 2 class có mối quan hệ kế thừa                 - Trong cùng 1 class
